@@ -1,0 +1,148 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+<meta charset="utf-8" >
+<meta http-equiv="x-UA-compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width,intial-scale=1.0" />
+<title>document</title>
+<link rel="stylesheet"href="">
+<style>
+h1,h2{
+font-family:times new roman;
+color:rgb(230,255,240)
+}
+input {
+border-radius:50px;
+color:black,bold,italic;
+background-color:rgb(250,220,230);
+}
+html{
+background-color:black;
+
+}
+select{
+border-radius:50%;
+bavkground-color:rgb(230,25,240);
+}
+label{
+background-color:black;
+border-radius:50%;
+color:white;
+}
+label{
+font-family:times new roman;
+color:#d1f2c3;
+}s:50%;
+color:rgb(230,25,240)
+}
+
+h1{
+text-align:center;
+}
+
+h1{
+text-decoration:blueunderline;
+}
+</style>
+</head>
+<body>
+<h1><i><u>RAJISTRATION FORM</h1></i></u>
+<hr><hr>
+<form action="/action.php">
+<input type="text"placeholder="NAME/USERNAME">
+</form>
+<br>
+<form action="/action.php">
+<input type="text" placeholder="Enter E-mail">
+<br><br>
+<form action="/action.php">
+<input type="text" placeholder="ENTER MOBILE NO.">
+<br><br>
+<form action="/action.php">
+<input type="text" placeholder="MOTHER NAME">
+<br><br>
+<form action="/action.php">
+<input type="text" placeholder="FATHER NAME">
+<br><br>
+<h2><i><u>DOB</h2></i></u>
+<hr><hr>
+<select name="DATE"id="DATE">
+<option value="DATE">DATE</option>
+<option value="5">5</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="1">1</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+<option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+<option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
+</select>
+<select name="MONTH"id="MONTH">
+<option value="MONTH">MONTH</option>
+<option value="JAN">JAN</option><option value="FEB">FEB</option><option value="MARCH">MAR</option><option value="APR">APR</option><option value="MAY">MAY</option><option value="JUNE">JUNE</option><option value="JULY">JULY</option><option value="AUGUST">AUGUST</option><option value="SEP">SEP</option><option value="OCT">OCT</option><option value="NOV">NOV</option><option value="DEC">DEC</option>
+</select>
+<select name="year"id="104"104>
+<option value="YEAR">YEAR</option>
+<option value="2009">2009</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2005</option><option value="2006">2007</option><option value="2008">2008</option><option value="2000">2000</option><option value="2010">2010</option>
+</select>
+<form action="/action.php">
+<br><br>
+<input type="text"placeholder="ADHAR-NO.">
+</form>
+<br>
+<form action="/action.php">
+<input type="text"placeholder="SAMAGRA-ID">
+</form>
+<br>
+<form action="/action.php">
+<input type="text"placeholder="PIN CODE">
+</form>
+<br>
+<form action="/action.php">
+<input type="text"placeholder="ADDRESS">
+</form>
+<hr><hr>
+<h2>10th/12th parcentage and group</h2>
+<br>
+<label for="104">
+<input type="checkbox"value="mathmatics(science group)"name="subject id 104">Mathmatics(science group)</label>
+<br>
+<label for="104">
+<input type="checkbox"value="Biology(science group)"name="subject id 104">Biology(science group)</label>
+<br>
+<label for="104">
+<input type="checkbox"value="Commarce(commarce group)"name="subject id 104">Commarce(commarce group)</label>
+<br>
+<label for="104">
+<input type="checkbox"value="Arts(Arts group)"name="subject id 104">Arts(Arts group)</label>
+<br>
+<label for="104">
+<input type="checkbox"value="Agreculture(Agreculture group)"name="subject id 104">Agreculture(Agreculture group)</label>
+<br>
+<label for="104">
+<input type="checkbox"value="Home-science( science group)"name="subject id 104">Home-science(science group)</label>
+<br><br>
+<form action="/action.php">
+<input type="text"placeholder="PARCENTAGE-10TH">
+</form>
+<br>
+<form action="/action.php">
+<input type="text"placeholder="PARCENTAGE-12TH">
+</form>
+
+<h2><i><u>COURCE/DEGREE</h2></i></u>
+<hr><hr>
+<label for="UG">
+ <pre> <input type="checkbox"value="UG"name="UG">UG</label></pre>
+ <label for="PG">
+ <pre> <input type="checkbox"value="PG"name="PG">PG</label></pre>
+ <select name="DEGREE/COURCE"id="DEGREE/COURCE">
+ <option value=""></option>
+ <option value="UG">UG</option></select>
+<hr><hr>
+ <select name="DEGREE/COURCE"id="DEGREE/COURCE">
+   <option value=""></option><option value="BSC">BSC</option><option value="BCOM">BCOM</option><option value="BBA">BBA</option><option value="BA">BA</option>
+ </select>
+ <hr><hr>
+ <br><br>
+ 
+
+
+</body>
+</html> 
