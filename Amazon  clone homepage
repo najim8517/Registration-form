@@ -1,0 +1,211 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+<meta charset="utf-8" >
+<meta http-equiv="x-UA-compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width,intial-scale=1.0" />
+<title>document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<style>
+/* इसे अपने CSS में सबसे ऊपर पेस्ट करें */
+html, body {
+    background-color: green!important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    
+
+*{
+margin:0;
+font-family:Arial;
+box-sizing:border-box;
+
+}
+body{
+background-color:#eaeded;
+}
+.navbar{
+height:90px;
+background-color:#0f1111;
+color:white;
+display:flex;
+align-items:center;
+justify-content:space-evenly;/*aliments ko shi jgh rakhne ke liye*/
+padding:0 15px;
+width:1000px;
+}
+.logo{
+background-image:url("logo.png");
+background-size:cover;
+background-repeat:no-repeat;
+height:30px;
+width:90px;
+background-color:black;
+
+}
+border{
+border:2px solid transparent;
+}
+.logo:hover{
+border:1.5px solid white;
+}
+/**box2**/
+.add-first{
+color:#cccccc;
+font-size:0.85rem;
+margin-left:15px;
+}
+.add-sec{
+font-size:1rem;
+margin-left:3px;
+font-width:bold;
+}
+.add-icon{
+display:flex;
+align-items:center;
+}
+/**box3**/
+.nav-search{
+display:flex;
+justify-content:space-evenly;
+background-color:pink;
+width:620px;
+height:30px;
+border-radius:4px;
+justify-content:center;
+margin-left:0 auto;
+margin-right:0 auto;
+}
+.search-select{
+background-color:#f3f3f3;
+width:50px;
+text-align:center;
+border-radius:4px;
+border-top-left-radius:4px;
+border-bottom-left-radius:4px;
+}
+.search-input{
+width:900px;
+font-size:1rem;
+}
+.Search-icon{
+width:50px;
+display:flex;
+justify-content:center;
+align-item :right;
+font-size:1.2rem;
+background-color: #febd68;
+color:#011111;
+}
+p{
+height:40px;
+color:black ;
+display:inline;
+position:top;
+align-item:center;
+judtify-content:flex;
+background-color:;
+background-size:cover;
+font-size:20px;
+
+}
+
+/**cart**/
+.nav-cart{
+font-size:30px;
+display:inline;
+}
+/**hero srction**/
+.hero-section{
+background-image:url("image.png");
+height:250px;
+width:459px;
+background-size:cover;
+background-repeat:no-repeat;
+}
+.nine-9{
+background-image:url("5.jpg");
+height:500px;
+width:500px;
+background-size:cover;
+background-repeat:no-repeat;
+}
+.nine-3{
+background-image:url("3.jpg");
+height:240px;
+width:500px;
+background-size:cover;
+background-repeat:no-repeat;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="navbar">
+ <!--box 1:logo-->
+<div class="nav-logo border">
+  <div class="logo"></div>
+</div>
+<!--box 2:address-->
+<div class="nav-address border">
+<p class="add-first">Deliver to</p>
+<div class="add-icon">
+<i class="fa-sharp fa-solid fa-location-dot"></i>
+<p class="add-sec">India</p>
+</div>
+</div>
+<!--box 3:search bar-->
+<div class="nav-search">
+<select class="search-select">
+<option> ALL</option>
+</select>
+<input placeholder="Search Amazon" class="search-input">
+<div class="Search-icon"></div>
+<i class="fa-solid fa-magnifying-glass"></i>
+     </div>
+   </div>
+ <div class="navsignin">
+ 
+ <div class="nav-cart">
+ 
+ <i class="fa-solid fa-cart-shopping"></i>
+ cart
+ </div>
+ <div class="panel">
+ <div class="pannel-all">
+ <i class="fa-solid fa-bars"></i>
+ ALL
+ </div>
+ 
+ <div class="pannel-deals">
+ Shop deals in Electronics
+ <p>Today's Deals</p>
+ <br>
+ <p>Customer Service</p>
+ <br>
+ <p>Registry</p>
+ <br>
+ <p>Gift Cards</p>
+ <br>
+ <p>Sell</p>
+ </div>
+ </div>
+</header>
+<div class="hero-section">
+
+</div>
+<div class="nine-9">
+</div>
+<br>
+<div class="nine-3">
+</div>
+
+
+<!--sraddha didi ka picture add karne ka tarika-->
+<div class="show-section"
+
+</body>
+</html>
